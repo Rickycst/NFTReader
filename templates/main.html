@@ -1,0 +1,27 @@
+
+<script type="text/javascript" src="static/metamask.js"></script>
+<link rel="stylesheet" href='/static/utils.css' />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+<nav class="navbar">
+    <div id="divLogin">
+        {% if session['account'] %}
+            <button id="wallet" class="button" onclick="deconnectToMetamask()">Déconnexion</button>    
+        {% else %}
+            <button id="wallet" class="button" onclick="connectToMetamask()">Connect to Wallet</button>
+        {% endif %}        
+    </div>
+    <h1 id="title">Welcome to NFT Explorer :</h1>
+</nav>
+
+<div>
+    <p id="accountValue" class="center"> 
+        {% if session['account'] %}
+        <p> Address : <b>{{ session['account'] }}</b></p>
+        <p>Balance <b> {{ balance }} ETH</b></p> 
+        {% endif %}
+    </p>
+</div>
+

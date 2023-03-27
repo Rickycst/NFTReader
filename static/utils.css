@@ -1,0 +1,43 @@
+.hide{
+    display: none;
+}
+
+.navbar{
+    height: 20%;
+    box-shadow:0px 1px 5px #000000;
+    margin-bottom: 3%;
+    background-color: aliceblue;
+}
+
+.button{
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+#divLogin{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0%;
+}
+
+.center{
+    text-align: center;
+}
+
+#wallet{
+    border: 2px solid #8129bb; /* Green */
+
+}
+
+#wallet:hover{
+    background-color: #8129bb; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#title{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
