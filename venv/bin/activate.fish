@@ -30,7 +30,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ricky/Documents/Blockchain/projet/NFTreader/venv"
+set -gx VIRTUAL_ENV "/home/ricky/Documents/Blockchain/projet/NFTReader/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

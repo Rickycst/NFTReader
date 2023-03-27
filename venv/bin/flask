@@ -1,4 +1,4 @@
-#!/home/ricky/Documents/Blockchain/projet/NFTreader/venv/bin/python3
+#!/home/ricky/Documents/Blockchain/projet/NFTReader/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
